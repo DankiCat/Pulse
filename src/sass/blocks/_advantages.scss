@@ -3,12 +3,7 @@
     min-height: 473px;
     color: #0d0d0d;
     padding: 70px 0 65px 0;
-    &__header {
-        font-weight: 700;
-        font-size: 30px;
-        text-align: center;
-    }
-    &__items {
+    &__wrapper {
         display: flex;
         justify-content: space-between;
         margin-top: 65px;
