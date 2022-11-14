@@ -1,0 +1,101 @@
+.catalog {
+    padding-bottom: 100px;
+    &__tabs {
+        margin-top: 50px;
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
+        padding: 0;
+    }
+    &__tab {
+        width: 202px;
+        height: 52px;
+        border: 2px solid #d0d0d0;
+        text-transform: uppercase;
+        color: #6b6b6b;
+        font-weight: 500;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: skewX(-20deg);
+        margin: 0 5px;
+        transition: 0.5s all;
+        cursor: pointer;
+        &:hover {
+            box-shadow: 0 0 15px $main-color;
+            border: none;
+        }
+        div {
+            transform: skewX(20deg);
+        }
+        &_active {
+            color: #ffffff;
+            background-color: $main-color;
+            border: none;
+        }
+    }
+    &__content {
+        margin-top: 60px;
+    }
+    &-item {
+        width: 303px;
+        min-height: 442px;
+        border: 2px solid #e8e8e8;
+        padding: 20px;
+        &__img {
+            max-width: 100%;
+            height: 200px;
+            display: block;
+            margin: 0 auto;
+        }
+        &__subtitle {
+            margin-top: 20px;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 25px;
+            color: #0d0d0d;
+            text-align: center;
+        }
+        &__description {
+            margin-top: 16px;
+            font-weight: 300;
+            font-size: 16px;
+            text-align: center;
+        }
+        &__link {
+            display: block;
+            margin-top: 17px;
+            color: $main-color;
+            font-weight: 500;
+            font-size: 14px;
+            text-decoration: underline;
+            text-align: center;
+            &:hover {
+                color: $main-color;
+            }
+        }
+        hr {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            background-color: #e8e8e8;
+        }
+        &__footer {
+            display: flex;
+            justify-content: space-between;
+        }
+        &__old-price {
+            text-decoration: line-through;
+            font-size: 14px;
+            font-weight: 300;
+            color: #555555;
+        }
+        &__price {
+            color: #050505;
+            font-size: 20px;
+            font-weight: 700;
+        }
+    }
+}
