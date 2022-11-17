@@ -1,5 +1,8 @@
 .catalog {
-    padding-bottom: 100px;
+    padding-bottom: 75px;
+    .title {
+        font-weight: 500;
+    }
     &__tabs {
         margin-top: 50px;
         list-style-type: none;
