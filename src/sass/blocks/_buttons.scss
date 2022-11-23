@@ -8,6 +8,10 @@
     font-size: 12px;
     text-transform: uppercase;
     color: #ffffff;
+    transition: 0.3s all;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     &_main {
         width: 300px;
         height: 50px;
@@ -24,5 +28,78 @@
         width: 135px;
         height: 44px;
         font-size: 14px;
+        padding-top: px;
+        &:hover {
+            border: 2px solid $main-color;
+        }
+    }
+    &:hover {
+        background-color: #ffffff;
+        color: $main-color;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .button {
+        &_main {
+            margin-top: 60px;
+        }
+    }
+}
+
+@media (max-width: 991.98px) {
+    .button {
+        &_main {
+
+        }
+        &_submit {
+        
+        }
+        &_mini {
+            &:hover {
+
+            }
+        }
+        &:hover {
+
+        }
+    }
+}
+
+@media (max-width: 767.98px) {
+    .button {
+        &_main {
+
+        }
+        &_submit {
+        
+        }
+        &_mini {
+            &:hover {
+                
+            }
+        }
+        &:hover {
+
+        }
+    }
+}
+
+@media (max-width: 575.98px) {
+    .button {
+        &_main {
+
+        }
+        &_submit {
+        
+        }
+        &_mini {
+            &:hover {
+                
+            }
+        }
+        &:hover {
+
+        }
     }
 }

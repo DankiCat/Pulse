@@ -25,13 +25,109 @@
         }
         &__review {
             margin-top: 10px;
-            max-width: 650px;
+            max-width: 660px;
             font-weight: 300;
             font-size: 16px;
             line-height: 25px;
         }
         &:nth-child(3) {
             margin-bottom: 0;
+        }
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .reviews {
+        .review-item {
+            &__logo {
+                
+            }
+            &__name {
+                font-size: 17px;
+            }
+            &__subtitle {
+                font-size: 13px;
+                line-height: 20px;
+            }
+            &__review {
+                font-size: 15px;
+                line-height: 24px;
+            }
+        }
+    }
+}
+
+@media (max-width: 991.98px) {
+    .reviews {
+        &__content {
+
+        }
+        .review-item {
+            &__logo {
+
+            }
+            &__name {
+
+            }
+            &__subtitle {
+
+            }
+            &__review {
+
+            }
+            &:nth-child(3) {
+                
+            }
+        }
+    }
+}
+
+@media (max-width: 767.98px) {
+    .reviews {
+        &__content {
+
+        }
+        .review-item {
+            &__logo {
+
+            }
+            &__name {
+
+            }
+            &__subtitle {
+
+            }
+            &__review {
+
+            }
+            &:nth-child(3) {
+                
+            }
+        }
+    }
+}
+
+@media (max-width: 575.98px) {
+    .reviews {
+        &__content {
+
+        }
+        .review-item {
+            &__logo {
+
+            }
+            &__name {
+
+            }
+            &__subtitle {
+
+            }
+            &__review {
+
+            }
+            &:nth-child(3) {
+                
+            }
         }
     }
 }

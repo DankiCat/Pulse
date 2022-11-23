@@ -4,6 +4,9 @@
         position: relative;
         width: 750px;
         margin: 0 auto;
+        img {
+            width: 100%;
+        }
     }
     .slick-prev, .slick-next  {
         position: absolute;
@@ -20,5 +23,67 @@
     .slick-next  {
         right: -66px;
         left: auto;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .carousel {
+        &__inner {
+            width: 720px;
+        }
+        .slick-prev, .slick-next {
+            img {
+                width: 30px;
+                height: 48px;
+            }
+        }
+    }
+}
+
+@media (max-width: 991.98px) {
+    .carousel {
+        &__inner {
+            
+        }
+        .slick-prev, .slick-next {
+            img {
+
+            }
+        }
+        .slick-next {
+            
+        }
+    }
+}
+
+@media (max-width: 767.98px) {
+    .carousel {
+        &__inner {
+            
+        }
+        .slick-prev, .slick-next {
+            img {
+
+            }
+        }
+        .slick-next {
+            
+        }
+    }
+}
+
+@media (max-width: 575.98px) {
+    .carousel {
+        &__inner {
+            
+        }
+        .slick-prev, .slick-next {
+            img {
+
+            }
+        }
+        .slick-next {
+            
+        }
     }
 }
