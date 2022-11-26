@@ -42,16 +42,30 @@
 
 @media (max-width: 991.98px) {
     .carousel {
+        padding: 50px 0 50px 0;
         &__inner {
-            
+            min-width: 500px;
         }
-        .slick-prev, .slick-next {
-            img {
-
+        ul {
+            
+            padding: 0;
+            width: 90px;
+            height: 20px;
+            margin: 10px auto 0 auto;
+            li {
+                background-color: #0d0d0d;
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+                margin: 0 5px;
+                border-radius: 100%;
+                &.slick-active {
+                    background-color: $main-color;
+                }
             }
-        }
-        .slick-next {
-            
+            button {
+                display: none;
+            }
         }
     }
 }

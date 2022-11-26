@@ -50,10 +50,15 @@
 @media (max-width: 991.98px) {
     .button {
         &_main {
-
+            margin-top: 50px;
+            font-size: 15px;
+            width: 270px;
+            height: 45px;
         }
         &_submit {
-        
+            width: 270px;
+            height: 45px;
+            font-size: 15px;
         }
         &_mini {
             &:hover {

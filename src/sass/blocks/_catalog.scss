@@ -1,5 +1,5 @@
 .catalog {
-    padding-bottom: 75px;
+    padding-bottom: 63px;
     .title {
         font-weight: 500;
     }
@@ -47,10 +47,11 @@
         flex-wrap: wrap;
         &_active {
             display: flex;
+            justify-content: center;
         }
     }
     &-item {
-        margin-bottom: 12px;
+        margin: 0 6px 12px 6px;
         width: 300px;
         min-height: 442px;
         border: 2px solid #e8e8e8;
@@ -189,78 +190,12 @@
 
 @media (max-width: 991.98px) {
     .catalog {
-        .title {
-
-        }
+        padding-bottom: 38px;
         &__tabs {
-
-        }
-        &__tab {
-            &:hover {
-
-            }
-            div {
-
-            }
-            &_active {
-
-            }
+            margin-top: 30px;
         }
         &__content {
-            &_active {
-
-            }
-        }
-        &-item {
-            &__img {
-
-            }
-            &__subtitle {
-
-            }
-            &__description {
-
-            }
-        }
-        &__link {
-            &:hover {
-
-            }
-        }
-        hr {
-
-        }
-        &__footer {
-
-        }
-        &__old-price {
-
-        }
-        &__price {
-
-        }
-        &__wrapper {
-
-        }
-        &__content {
-            &_active {
-
-            }
-        }
-        &__list {
-            &_active {
-
-            }
-            li {
-                &::before {
-
-                }
-            }
-        }
-        &__back {
-            &:hover {
-                
-            }
+            margin-top: 30px;
         }
     }
 }

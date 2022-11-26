@@ -75,23 +75,29 @@
 
 @media (max-width: 991.98px) {
     .promo {
+        min-height: 537px;
+        padding: 20px 0 50px 0;
         &__wrapper {
-            
+            margin-top: 50px;
         }
         &__header {
-            
+            font-size: 38px;
         }
         &__subheader {
-            
+            font-size: 21px;
+            margin-top: 12px;
         }
         &__icons {
-
+            margin-top: 50px;
+            width: 400px;
         }
         &__icon {
-
+            width: 100px;
+            font-size: 13px;
         }
         &__link {
-
+            margin-top: 10px;
+            font-size: 15px;
         }
     }
 }

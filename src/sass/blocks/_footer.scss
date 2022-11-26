@@ -1,6 +1,9 @@
 .footer {
     min-height: 630px;
     position: relative;
+    &__map {
+        height: 630px;
+    }
     &__info {
         position: absolute;
         top: 0;
@@ -53,7 +56,6 @@
 
 @media (max-width: 1199.98px) {
     .footer {
-        min-height: 600px;
         &__info {
             width: 440px;
             height: 245px;
@@ -80,24 +82,34 @@
 
 @media (max-width: 991.98px) {
     .footer {
+        min-height: 500px;
+        &__map {
+            height: 500px;
+        }
         &__info {
-
+            width: 400px;
+            height: 200px;
+            padding: 40px 0;
         }
         &__address {
-
+            font-size: 16px;
         }
         &__phone {
-            &:hover {
-
-            }
+            font-size: 16px;
+            margin-top: 20px;
         }
         &__social {
-
+            margin-top: 20px;
         }
         &__social-item {
+            width: 40px;
+            height: 40px;
             img {
-                
+                height: 20px;
             }
+        }
+        canvas {
+            height: 400px;
         }
     }
 }

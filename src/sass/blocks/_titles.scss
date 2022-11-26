@@ -3,6 +3,7 @@
     font-size: 30px;
     text-align: center;
     text-transform: uppercase;
+    margin: 0;
     &_left {
         color: #ffffff;
         font-weight: 700;
@@ -24,8 +25,10 @@
 
 @media (max-width: 991.98px) {
     .title {
+        font-size: 27px;
         &_left {
-
+            font-size: 30px;
+            line-height: 40px;
         }
     } 
 }
