@@ -147,23 +147,12 @@
 @media (max-width: 575.98px) {
     .footer {
         &__info {
-
+            width: 280px;
+            height: 130px;
+            padding: 20px 0;
         }
         &__address {
-
-        }
-        &__phone {
-            &:hover {
-
-            }
-        }
-        &__social {
-
-        }
-        &__social-item {
-            img {
-                
-            }
+            line-height: 14px;
         }
     }
 }

@@ -95,33 +95,35 @@
                 margin-top: 5px;
                 max-width: 380px;
             }
-            &:nth-child(3) {
-                
-            }
         }
     }
 }
 
 @media (max-width: 575.98px) {
     .reviews {
+        padding-bottom: 20px;
         &__content {
-
+            margin-top: 0;
         }
         .review-item {
+            margin: 0 0 10px 0;
+            flex-wrap: wrap;
             &__logo {
-
+                width: 100px;
+                height: 100px;
+                margin-right: 0;
+                margin: 10px 20px 0 20px;
+                img {
+                    width: 100px;
+                    height: 100px;
+                }
             }
             &__name {
-
-            }
-            &__subtitle {
-
+                margin-top: 5px;
             }
             &__review {
-
-            }
-            &:nth-child(3) {
-                
+                font-size: 12px;
+                line-height: 15px;
             }
         }
     }

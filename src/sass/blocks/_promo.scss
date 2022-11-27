@@ -134,23 +134,32 @@
 
 @media (max-width: 575.98px) {
     .promo {
+        padding: 10px 0 20px 0;
+        background-position: 25%;
         &__wrapper {
-            
+            margin-top: 20px;
         }
         &__header {
-            
+            font-size: 24.65px;
         }
         &__subheader {
-            
+            font-size: 12px;
         }
         &__icons {
-
+            max-width: 80%;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            margin-top: 10px;
         }
         &__icon {
-
+            margin: 10px 5px 0 5px;
+            font-size: 12px;
+            &:nth-child(3) {
+                margin-top: 20px;
+            }
         }
         &__link {
-
+            font-size: 14px;
         }
     }
 }

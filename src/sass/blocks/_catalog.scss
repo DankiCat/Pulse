@@ -264,78 +264,16 @@
 
 @media (max-width: 575.98px) {
     .catalog {
-        .title {
-
-        }
+        padding: 20px 0 10px 0;
         &__tabs {
-
+            margin-top: 10px;
+            flex-wrap: wrap;
         }
         &__tab {
-            &:hover {
-
-            }
-            div {
-
-            }
-            &_active {
-
-            }
+            margin-top: 5px;
         }
         &__content {
-            &_active {
-
-            }
-        }
-        &-item {
-            &__img {
-
-            }
-            &__subtitle {
-
-            }
-            &__description {
-
-            }
-        }
-        &__link {
-            &:hover {
-
-            }
-        }
-        hr {
-
-        }
-        &__footer {
-
-        }
-        &__old-price {
-
-        }
-        &__price {
-
-        }
-        &__wrapper {
-
-        }
-        &__content {
-            &_active {
-
-            }
-        }
-        &__list {
-            &_active {
-
-            }
-            li {
-                &::before {
-
-                }
-            }
-        }
-        &__back {
-            &:hover {
-                
-            }
+            margin-top: 10px;
         }
     }
 }

@@ -77,7 +77,7 @@
             margin: 0 auto;
         }
         ul {
-            margin: 10px auto 2px auto;
+            margin: 10px auto px auto;
             width: 69px;
             height: 15px;
             li {
@@ -92,16 +92,6 @@
 
 @media (max-width: 575.98px) {
     .carousel {
-        &__inner {
-            
-        }
-        .slick-prev, .slick-next {
-            img {
-
-            }
-        }
-        .slick-next {
-            
-        }
+        display: none;
     }
 }

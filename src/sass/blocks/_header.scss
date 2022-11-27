@@ -55,23 +55,15 @@
 
 @media (max-width: 575.98px) {
     .header {
+        flex-wrap: wrap;
         &__logo {
+            width: 150px;
             img {
 
             }
         }
         &__official {
-            span {
-
-            }
-        }
-        &__phone {
-            &:hover {
-
-            }
-        }
-        &__contacts {
-            
+            display: none;
         }
     }
 }
