@@ -1,6 +1,7 @@
 .title {
     font-weight: 700;
     font-size: 30px;
+    line-height: 30px;
     text-align: center;
     text-transform: uppercase;
     margin: 0;
@@ -16,6 +17,7 @@
 @media (max-width: 1199.98px) {
     .title {
         font-size: 29px;
+        line-height: 29px;
         &_left {
             font-size: 34px;
             line-height: 50px;
@@ -26,6 +28,7 @@
 @media (max-width: 991.98px) {
     .title {
         font-size: 27px;
+        line-height: 27px;
         &_left {
             font-size: 30px;
             line-height: 40px;
@@ -35,13 +38,15 @@
 
 @media (max-width: 767.98px) {
     .title {
+        font-size: 25px;
+        line-height: 25px;
         &_left {
-
+            line-height: 35px;
         }
     } 
 }
 
-@media (max-width: 575.98p) {
+@media (max-width: 575.98px) {
     .title {
         &_left {
 

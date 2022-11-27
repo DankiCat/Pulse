@@ -104,23 +104,30 @@
 
 @media (max-width: 767.98px) {
     .promo {
+        min-height: 0;
+        padding: 20px 0 30px 0;
         &__wrapper {
-            
+            margin-top: 30px;
         }
         &__header {
-            
+            font-size: 35px;
+            margin: 0 auto;
         }
         &__subheader {
-            
+            font-size: 19px;
+            margin: 0 auto;
         }
         &__icons {
-
+            width: 350px;
+            margin: 20px auto 0 auto;
         }
         &__icon {
-
+            img {
+                margin-bottom: 10px;
+            }
         }
         &__link {
-
+            margin: 10px auto 0 auto;
         }
     }
 }

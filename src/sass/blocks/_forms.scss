@@ -36,8 +36,11 @@
 
 @media (max-width: 767.98px) {
     .feed-form {
+        width: 250px;
+        margin-top: 10px;
         input {
-            
+            height: 40px;
+            font-size: 12px;
         }
     }
 }

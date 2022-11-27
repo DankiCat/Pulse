@@ -19,7 +19,6 @@
         font-weight: 500;
         font-size: 20px;
         color: #ffffff;
-        line-height: 20px;
     }
     &__phone {
         display: block;
@@ -108,31 +107,38 @@
                 height: 20px;
             }
         }
-        canvas {
-            height: 400px;
-        }
     }
 }
 
 @media (max-width: 767.98px) {
     .footer {
+        min-height: 400px;
+        &__map {
+            height: 400px;
+        }
         &__info {
-
+            width: 300px;
+            height: 155px;
+            padding: 30px 0;
         }
         &__address {
-
+            font-size: 14px;
+            line-height: 18px;
+            margin-bottom: 0;
         }
         &__phone {
-            &:hover {
-
-            }
+            font-size: 14px;
+            margin-top: 10px;
         }
         &__social {
-
+            margin-top: 10px;
         }
         &__social-item {
+            width: 35px;
+            height: 35px;
+            margin: 0 10px;
             img {
-                
+                height: 17px;
             }
         }
     }

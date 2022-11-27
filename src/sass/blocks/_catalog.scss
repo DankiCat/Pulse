@@ -151,7 +151,6 @@
                     background-color: $main-color;
                     top: 8px;
                     left: -14px;
-
                 }
             }
         }
@@ -202,77 +201,62 @@
 
 @media (max-width: 767.98px) {
     .catalog {
-        .title {
-
-        }
+        padding-bottom: 20px;
         &__tabs {
-
+            margin-top: 15px;
         }
         &__tab {
-            &:hover {
-
-            }
-            div {
-
-            }
-            &_active {
-
-            }
+            width: 150px;
+            height: 45px;
+            font-size: 14px;
         }
         &__content {
-            &_active {
-
-            }
+            margin-top: 15px;
         }
         &-item {
+            margin: 0 5px 10px 5px;
+            width: 250px;
+            min-height: 0;
+            padding: 10px;
             &__img {
-
+                height: 150px;
             }
             &__subtitle {
-
+                margin-top: 10px;
+                font-size: 15px;
             }
             &__description {
-
+                margin-top: 10px;
+                font-size: 14px;
+                line-height: 18px;
             }
-        }
-        &__link {
-            &:hover {
-
-            }
-        }
-        hr {
-
-        }
-        &__footer {
-
-        }
-        &__old-price {
-
-        }
-        &__price {
-
-        }
-        &__wrapper {
-
-        }
-        &__content {
-            &_active {
-
-            }
-        }
-        &__list {
-            &_active {
-
-            }
-            li {
-                &::before {
-
+            &__link {
+                font-size: 13px;
+                margin-top: 12px;
+                &:hover {
+    
                 }
             }
-        }
-        &__back {
-            &:hover {
-                
+            hr {
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            &__old-price {
+                font-size: 13px;
+            }
+            &__price {
+                font-size: 16px;
+            }
+            &__list {
+                line-height: 18px;
+                padding-right: 10px;
+                li {
+                    margin-bottom: 5px;
+                    width: 200px;
+                    &::before {
+                        top: 6px;
+                    }
+                }
             }
         }
     }
