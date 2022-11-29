@@ -83,4 +83,5 @@ $(document).ready(function(){
     validateForm('#order form');
     validateForm('#consultation-form');
 
+    $('input[name=phone]').mask('+375 (99) 999-99-99');
 });
