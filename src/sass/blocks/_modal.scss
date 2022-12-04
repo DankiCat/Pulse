@@ -62,3 +62,82 @@
 #consultation, #order, #thanks {
     display: none;
 }
+
+@media (max-width: 991.98px) {
+    .modal-window {
+        width: 340px;
+        min-height: 357px;
+        padding: 35px;
+        &__close {
+            top: 0;
+            right: -35px;
+            font-size: 36px;
+            line-height: 20px;
+        }
+        &__subtitle {
+            font-size: 16.9px;
+            line-height: 16.9px;
+        }
+        &__description {
+            font-size: 13px;
+            line-height: 13px;
+            margin-top: 10px;
+        }
+        label.error {
+            margin-bottom: 10px;
+            font-size: 13px;
+        }
+    }
+}
+
+@media (max-width: 767.98px) {
+    .modal-window {
+        width: 310px;
+        min-height: 0px;
+        padding: 30px;
+        &__close {
+            top: 0;
+            right: -30px;
+            font-size: 32px;
+            line-height: 16px;
+        }
+        &__subtitle {
+            font-size: 15.6px;
+            line-height: 15.6px;
+        }
+        &__description {
+            font-size: 12px;
+            line-height: 12px;
+        }
+        label.error {
+            margin-bottom: 10px;
+            font-size: 12px;
+        }
+    }
+}
+
+@media (max-width: 575.98px) {
+    .modal-window {
+        width: 300px;
+        min-height: 0px;
+        padding: 25px;
+        &__close {
+            top: 0;
+            right: -28px;
+            font-size: 28px;
+            line-height: 14px;
+        }
+        &__subtitle {
+            font-size: 15.6px;
+            line-height: 15.6px;
+        }
+        &__description {
+            font-size: 12px;
+            line-height: 12px;
+        }
+        label.error {
+            margin-bottom: 8px;
+            font-size: 12px;
+        }
+    }
+}
