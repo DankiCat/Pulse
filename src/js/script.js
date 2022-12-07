@@ -115,4 +115,8 @@ $(document).ready(function(){
             $('.pageup').fadeOut('fast');
         }
     });
+
+    // wow
+
+    new WOW().init();
 });
