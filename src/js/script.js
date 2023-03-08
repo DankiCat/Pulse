@@ -38,17 +38,26 @@ $(document).ready(function(){
 
     // Modal
 
+    function hideScrollBar() {
+        let scrollBarWidth = window.innerWidth - document.documentElement.clientWidth;
+        document.body.style.cssText = `overflow:hidden;margin-right:${scrollBarWidth}px;background-color:#F6F6F6`;
+        $('.pageup').fadeOut('fast');
+    }
+
     $('[data-modal="consultation"]').on('click', function() {
         $('.overlay, #consultation').fadeIn('fast');
+        hideScrollBar();
     });
     $('.modal-window__close').on('click', function() {
         $('.overlay, #consultation, #order, #thanks').fadeOut('fast');
+        document.body.style.cssText = '';
     });
     $('.button_mini').each(function(i) {
         $(this).on('click', function() {
             $('#order .modal-window__description').text($('.catalog-item__subtitle').eq(i).text());
             console.log($('catalog-item__subtitle').eq(i).text());
             $('.overlay, #order').fadeIn('fast');
+            hideScrollBar();
         })
     });
 
@@ -67,7 +76,7 @@ $(document).ready(function(){
             },
             messages: {
                 name: {
-                    required:  'Пожайлуста, введите своё имя',
+                    required: 'Пожалуйста, введите своё имя',
                     minlength: jQuery.validator.format('Введите как минимум {0} символа')
                 },
                 phone: 'Пожалуйста, введите свой номер телефона',
