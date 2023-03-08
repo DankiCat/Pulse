@@ -1,1 +1,1 @@
-# project_9
+website for a fitness tracker brand "Pulse"
